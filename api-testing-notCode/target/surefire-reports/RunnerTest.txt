@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.439 s <<< FAILURE! -- in RunnerTest
+Validar el endpoint de documentación OpenAPI.Obtener la documentación del API -- Time elapsed: 0.062 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'el servicio está disponible' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("el servicio está disponible")
+public void el_servicio_está_disponible() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("hago una petición GET a {string}")
+public void hago_una_petición_get_a(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("el código de respuesta debe ser {int}")
+public void el_código_de_respuesta_debe_ser(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("la respuesta debe contener {string}")
+public void la_respuesta_debe_contener(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
