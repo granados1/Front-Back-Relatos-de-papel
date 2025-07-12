@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.sys.notCodeTst.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 52.15 s <<< FAILURE! -- in com.sys.notCodeTst.runners.TestRunner
+Eliminar una inscrpción.Usuario ingresa a la aplicación de alumnos y elimina un nuevo curso -- Time elapsed: 4.718 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.sys.notCodeTst.steps.notCodeTstSteps.el_sistema_muestra_un_mensaje_de_exito(notCodeTstSteps.java:77)
+	at ✽.el sistema muestra un mensaje de éxito "Curso eliminado"(file:///C:/code/Unir-repos/Front-Back-Relatos-de-papel/notCodeTst/src/test/resources/features/Inscripcion/delete-inscription.feature:17)
+
+Eliminar una inscrpción.Usuario ingresa a la aplicación de alumnos y agrega un nuevo alumno -- Time elapsed: 4.228 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.sys.notCodeTst.steps.notCodeTstSteps.el_sistema_muestra_un_mensaje_de_exito(notCodeTstSteps.java:77)
+	at ✽.el sistema muestra un mensaje de éxito "Alumno eliminado"(file:///C:/code/Unir-repos/Front-Back-Relatos-de-papel/notCodeTst/src/test/resources/features/Inscripcion/delete-inscription.feature:24)
+

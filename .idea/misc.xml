@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/SearchBooksTest/pom.xml" />
         <option value="$PROJECT_DIR$/ms-books-catalogue/pom.xml" />
+        <option value="$PROJECT_DIR$/notCodeTst/pom.xml" />
       </list>
     </option>
   </component>
